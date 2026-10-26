@@ -1,0 +1,17 @@
+{
+  "name": "postia",
+  "owner": {
+    "name": "KVLK Studio",
+    "url": "https://postia.app"
+  },
+  "metadata": {
+    "description": "Postia for Claude Code: write, schedule and publish social posts."
+  },
+  "plugins": [
+    {
+      "name": "postia",
+      "source": "./claude-code",
+      "description": "Write, schedule and publish social posts with Postia."
+    }
+  ]
+}

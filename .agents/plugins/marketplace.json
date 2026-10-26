@@ -1,0 +1,12 @@
+{
+  "name": "postia",
+  "interface": { "displayName": "Postia" },
+  "plugins": [
+    {
+      "name": "postia",
+      "source": { "source": "local", "path": "./codex" },
+      "policy": { "installation": "AVAILABLE" },
+      "category": "Productivity"
+    }
+  ]
+}
