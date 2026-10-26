@@ -1,6 +1,6 @@
 {
   "name": "postia",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Write, schedule and publish social posts with Postia.",
   "author": { "name": "KVLK Studio", "url": "https://postia.app" },
   "homepage": "https://postia.app"

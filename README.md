@@ -38,5 +38,6 @@ codex mcp login postia
 ## Tools
 
 list_channels, list_posts, get_post, create_post, update_post,
-add_media_from_url, schedule_post, publish_post, unschedule_post, delete_post.
+add_media_from_url, schedule_post, publish_post, unschedule_post, delete_post,
+get_audience, get_publishing_stats (on plans with analytics).
 Posts are drafts until publish_post or schedule_post.
