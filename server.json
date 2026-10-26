@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "app.postia/postia",
+  "title": "Postia",
+  "description": "Write, schedule and publish social posts to 18 networks, and read channel analytics.",
+  "version": "1.1.0",
+  "websiteUrl": "https://postia.app/help/ai/",
+  "repository": {
+    "url": "https://github.com/kvlkstudio/postia-ai-plugins",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.postia.app"
+    }
+  ]
+}
