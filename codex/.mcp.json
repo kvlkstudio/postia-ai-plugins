@@ -1,5 +1,5 @@
 {
   "mcpServers": {
-    "Postia": { "url": "https://mcp.postia.app" }
+    "postia": { "url": "https://mcp.postia.app" }
   }
 }
