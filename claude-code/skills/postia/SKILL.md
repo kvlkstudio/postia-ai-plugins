@@ -34,6 +34,13 @@ The Postia MCP server acts on the user's own Postia account.
 6. `get_post` afterwards shows where it went, with links and errors per
    channel; `retry_publication` resends a failed one, `duplicate_post` makes a
    new draft from an old post.
+7. Repeating: `repeat: {"times": ["10:00"]}` in create_post sends it every
+   day at 10:00 (several times go out soonest first, in the user's time
+   zone); each send becomes a post of its own. `stop_repeat` ends it.
+   A scheduled post can be changed with `update_post` without unscheduling;
+   `scheduled_at` there moves it.
+8. Places for Facebook and Instagram: `search_places`, then its value in
+   the `place` setting.
 
 Beyond a single post:
 - Already published: `get_removable` + `take_down` deletes it from a network,

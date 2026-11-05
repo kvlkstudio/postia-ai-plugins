@@ -3,7 +3,7 @@
   "name": "app.postia/postia",
   "title": "Postia",
   "description": "Write, schedule and publish social posts to 18 networks, and read channel analytics.",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "websiteUrl": "https://postia.app/help/ai/",
   "repository": {
     "url": "https://github.com/kvlkstudio/postia-ai-plugins",
